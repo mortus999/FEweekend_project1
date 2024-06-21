@@ -8,6 +8,19 @@
     list-style: none;
 
 }
+.header2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
 
 .header{
     position: fixed;
@@ -22,6 +35,15 @@
     align-items: center;
     z-index: 100;
 }
+
+
+
+
+
+
+
+
+
 
 .logo{
     font-size: 25px;
@@ -290,4 +312,25 @@ span{
     text-align: center;
     font-size: 12px;
     color: whitesmoke;
+}
+
+.resume{
+    width:100%;
+    min-height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0; 
+}
+
+
+.section{
+    width:100%;
+    min-height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0; 
 }
